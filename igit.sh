@@ -26,4 +26,5 @@ do
     git commit -m 'update'
     git pull origin master
     git push -u origin master
+    echo "${PWD##*/}"
 done
