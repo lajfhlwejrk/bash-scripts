@@ -1,13 +1,19 @@
 ### How to
 
-To create pull requests in every repositories under the root directory, you can pull run through
+```shell
+git clone https://github.com/tiiaan/easy-git
+cd easy-git
+```
+Change para `dir` with your root directory name.
+
+To create pull requests in every repositories under the root directory, you can run through
  
 ```shell
 chmod a+x ipull.sh
 ./ipull.sh
 ```
 
-To create push requests in every repositories under the root directory, you can pull run through
+To create add, commit and push requests in every repositories under the root directory, you can run through
  
 ```shell
 chmod a+x igit.sh
