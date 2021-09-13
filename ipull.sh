@@ -1,5 +1,6 @@
 #!/bin/bash
-x=$(find /home/tiiaan/Public -type d -name .git)
+dir=/home/tiiaan/Public
+x=$(find $dir -type d -name .git)
 for i in $x; do
     cd $i 
     cd ..

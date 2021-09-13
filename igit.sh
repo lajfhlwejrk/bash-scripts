@@ -1,32 +1,6 @@
 #!/bin/bash
-# cd /home/tiiaan/Public/sandbox/alzheimer
-# git add .
-# git commit -m 'update'
-# git pull origin master
-# git push -u origin master
-# echo "----------------------------------------"
-
-# cd /home/tiiaan/Public/sandbox/soft-night-vision
-# git add .
-# git commit -m 'update'
-# git pull origin master
-# git push -u origin master
-# echo "----------------------------------------"
-
-# cd /home/tiiaan/Public/sandbox/ubuntu-scaffold
-# git add .
-# git commit -m 'update'
-# git pull origin master
-# git push -u origin master
-# echo "----------------------------------------"
-
-# cd /home/tiiaan/Public/sandbox/easy-git
-# git add .
-# git commit -m 'update'
-# git pull origin master
-# git push -u origin master
-# echo "----------------------------------------"
-x=$(find /home/tiiaan/Public -type d -name .git)
+dir=/home/tiiaan/Public
+x=$(find $dir -type d -name .git)
 for i in $x; do
     cd $i 
     cd ..
