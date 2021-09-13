@@ -1,8 +1,8 @@
 ### How to
 
 ```shell
-git clone https://github.com/tiiaan/easy-git
-cd easy-git
+git clone https://github.com/tiiaan/mono-git
+cd mono-git
 ```
 Change para `dir` with your root directory name.
 
